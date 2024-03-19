@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>challenger2</title>
+        <link rel="stylesheet" href="./styles/style.css"><!--link para o arquivo css-->
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho_div"> <!-- classe criado para estilizar cabeçalho-->
+            </div>
+
+        </header>
+    <main class="main"> <!-- classe criado para estilizar o main-->
+        
+        <section class="texto1">
+            <div class="logo_div">
+                <img src="./assets/logo.png" alt="logo alura">
+            </div>
+            <div class="borda">
+                <div class="icone"> <!-- classe para o icone--->
+                </div>
+            <div>
+
+            </div>
+                <textarea id="textarea1" class="textarea"  cols= "43" rows="15"
+                placeholder="Digite seu texto aqui"></textarea> <!-- textarea criada para digitar texto-->
+            </div>
+
+            </div>
+
+        <div class="atencao">
+            <div class="atencao_img">
+                
+            </div>
+            <div class="atencao_frase">
+                apenas letras maíusculas e sem acento
+            </div>
+            
+        </div>
+
+        <div class="atencao_div">
+            <div class="botaoir">
+                <button class="encriptar" onclick="btnEncriptar ()">CRIPTOGRAFAR</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">DESCRIPTOGRAFAR</button>
+            
+            </div>       
+        </div>
+        </section>
+        
+        <section class="seta">  
+            <img src="" alt="">
+        </section>
+        <section class="texto2">
+            <div class="div_icones">
+                <img class="" src="" alt="">
+            
+            </div>
+            <div class="borda">
+                <div class="icone2">
+                    <img class="" alt="">
+
+                </div>
+
+                <textarea readonly class="textarea2" cols="23" rows="17"
+                placeholder="nenhuma mensagem encontrada
+    Digite o texto que voçê deseja criptografar ou descriptografar na janela ao lado "
+    ></textarea>
+                </div>
+                <div class="pastas">
+                    <div>
+                        <img src="" alt="">
+                    </div>
+                    <div class="botaocopiar">
+                        <button class="botao_copiar" onclick = "copiartexto()">COPIAR</button>
+
+                    </div>
+                </div>
+
+            </section>
+
+    </main>        
+        <footer>
+        <div class="rodape">
+           Desenvolvido por Evandro Santos
+        </div>
+        </footer> 
+         <script src="challenger.js"></script>  
+    </body>          
+
+</html>
